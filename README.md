@@ -27,7 +27,10 @@ buffer names.
 
 ### Installation
 
-Install the `ivy` package from MELPA / GNU ELPA.
+Install the `counsel` package preferably from MELPA. If you want to
+install from GNU ELPA, then make sure that the depenedencies -i.e. the
+`Ivy` and `Swiper` packages- are installed from GNU ELPA also (to
+prevent issue #2591).
 
 Users of Debian ≥10 (and derivatives such as Ubuntu ≥18.04) can
 install Ivy, Counsel, and Swiper with `sudo apt install elpa-counsel`.
